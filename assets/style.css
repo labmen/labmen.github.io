@@ -1,0 +1,51 @@
+/* reset to 0 */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(42, 42, 42, 0.5), rgba(42, 42, 42, 0.85)), url("./bg.jpg");
+    background-repeat: round;
+    overflow: hidden;
+}
+
+.container {
+    width: 50%;
+    min-width: 800px;
+    height: 100%;
+    margin: auto;
+    padding: 50px 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+a:link {
+    color: #ddd;
+}
+
+.title {
+    text-align: center;
+    color: #abc;
+    padding: 0 0 20px 0;
+}
+
+.project {
+    text-align: left;
+    color: #ddd;
+    padding: 20px 10px;
+}
+
+.item > p {
+    padding: 10px 20px;
+}
+
+a:visited {
+    color: #fea;
+}
